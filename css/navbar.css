@@ -1,0 +1,31 @@
+.navbar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  width: 100%;
+}
+
+.links h1 {
+float: left;
+padding-left: 50px;
+}
+
+
+.link li a {
+  text-decoration: none;
+  color: black;
+}
+
+.links li {
+  margin: 0 10px;
+  font-size: 20px;
+  float: right;
+  list-style-type: none;
+  padding: 10px 10px;
+  color: black; 
+}
+

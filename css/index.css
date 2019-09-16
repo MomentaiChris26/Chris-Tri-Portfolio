@@ -5,17 +5,20 @@
   margin: 0;
 }
 
+body {
+  background-color: #EBE8E8;
+}
+
 .grid-container {
   display: grid;
   height: 100vh;
-  grid-template-rows: 0.14fr auto;
+  grid-template-rows: 0.08fr auto;
 }
 
 .grid-navbar {
-  background-color: grey;
+  
 } 
 
 .grid-main {
-  background-color: lightsteelblue;
   display: flex;
 }
