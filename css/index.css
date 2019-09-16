@@ -1,24 +1,141 @@
 @import "navbar.css";
 @import "main.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
   margin: 0;
-}
 
-body {
-  background-color: #EBE8E8;
 }
 
 .grid-container {
   display: grid;
   height: 100vh;
-  grid-template-rows: 0.08fr auto;
+  grid-template-rows: 0.1fr auto;
+  background-color: #EBE8E8;
 }
-
-.grid-navbar {
-  
-} 
 
 .grid-main {
   display: flex;
+  
 }
+
+#black-box {
+  background-image: url("../pictures/my-pic-two.jpg");
+  background-size: cover;
+}
+
+#homepage {
+  border-bottom: 2px solid #F0D14A;
+  color: grey;
+}
+
+.black-box h1 {
+  background-color: rgba(57, 56, 56, 0.8);
+  border: 1px solid RGBA(255, 255, 255, 0.2);
+  color: white;
+  font-size: 60px;
+}
+
+.black-box .text-box .yellow-box {
+  border: 1px solid #F9DC5C;
+  background-color: rgba(57, 56, 56, 0.2);
+  height: 80px;
+  width: 250px;
+  opacity: 0.5;
+  position: relative;
+  bottom: 160px;
+  left: 50px;
+}
+
+
+
+.black-box .text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 80px;
+}
+
+.black-box .text-box p {
+  color: white;
+  padding-top: 3%;
+  padding-right: 50px;
+  font-size: 25px;
+}
+
+.black-box .view-work-link {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+
+.work-link{
+  margin-left: 30px;
+  padding: 10px 20px;
+  color: white;
+  font-size: 30px;
+  border: 1px solid #F9DC5C;
+  box-sizing: inherit;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.work-link:hover {
+  opacity: 0.5;
+  background-color: blue;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1135px) {
+  .black-box h1 {
+    font-size: 45px;
+  }
+  .black-box .text-box .yellow-box {
+    bottom: 135px;
+    left: 40px;
+    height: 60px;
+    width: 200px;
+  }
+}
+
+@media only screen and (max-width: 920px) {
+  .black-box h1 {
+    font-size: 30px;
+  }
+
+  .black-box .text-box .yellow-box {
+    bottom: 110px;
+    left: 25px;
+    height: 40px;
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+
+  .grid-container .grid-main{
+    display: none;
+  }
+  
+  
+  .black-box .text-box .yellow-box {
+    display: none;
+  }
+
+  .black-box .picture-box {
+    display: none;
+  }
+
+
+  .black-box .text-box h1{
+    align-self: center;
+  }
+
+}
+

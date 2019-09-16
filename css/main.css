@@ -9,7 +9,16 @@
 } 
 
 .black-box {
-  background-color: black;
+  background-color: #1B1A1A;
   height: 80%;
-  width: 80%;
+  width: 70%;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr;
 }
+
+
+
+
+
+
+
