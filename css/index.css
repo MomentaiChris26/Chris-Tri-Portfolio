@@ -1,37 +1,42 @@
 @import "navbar.css";
 @import "main.css";
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import "footer.css";
+
 
 * {
   margin: 0;
-
 }
+
+/* Setting CSS Grid Layout */
 
 .grid-container {
   display: grid;
   height: 100vh;
-  grid-template-rows: 0.1fr auto;
+  grid-template-rows: 0.1fr auto 0.01fr;
   background-color: #EBE8E8;
 }
 
 .grid-main {
   display: flex;
-  
 }
 
-#black-box {
-  background-image: url("../pictures/my-pic-two.jpg");
-  background-size: cover;
-}
+/* Specific css change to navbar button for homepage */
 
 #homepage {
   border-bottom: 2px solid #F0D14A;
   color: grey;
 }
 
+/* Specific CSS to index.html with background pic */
+
+#black-box {
+  background-image: url("../pictures/my-pic.jpg");
+  background-size: cover;
+}
+
 .black-box h1 {
   background-color: rgba(57, 56, 56, 0.8);
-  border: 1px solid RGBA(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   font-size: 60px;
 }
@@ -47,8 +52,6 @@
   left: 50px;
 }
 
-
-
 .black-box .text-box {
   display: flex;
   justify-content: center;
@@ -60,8 +63,8 @@
 
 .black-box .text-box p {
   color: white;
-  padding-top: 3%;
-  padding-right: 50px;
+  background-color: rgba(57, 56, 56, 0.7);
+  margin-top: 3%;
   font-size: 25px;
 }
 
@@ -71,8 +74,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  
 }
 
 .work-link{
@@ -84,6 +85,7 @@
   box-sizing: inherit;
   display: inline-block;
   text-decoration: none;
+  background-color: rgba(57, 56, 56, 0.2);
 }
 
 .work-link:hover {
@@ -91,6 +93,8 @@
   background-color: blue;
   cursor: pointer;
 }
+
+
 
 @media only screen and (max-width: 1135px) {
   .black-box h1 {
@@ -118,24 +122,6 @@
 }
 
 @media only screen and (max-width: 685px) {
-
-  .grid-container .grid-main{
-    display: none;
-  }
-  
-  
-  .black-box .text-box .yellow-box {
-    display: none;
-  }
-
-  .black-box .picture-box {
-    display: none;
-  }
-
-
-  .black-box .text-box h1{
-    align-self: center;
-  }
 
 }
 
