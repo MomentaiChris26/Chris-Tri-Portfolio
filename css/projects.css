@@ -14,17 +14,46 @@
 }
 
 .main-container {
-  width: 100%;
   height: 100%;
 }
 
-.main-container .carousel {
-  background-color: black;
-  width: 90%;
-  height: 80%;
-}
 
 #projects {
   border-bottom: 2px solid #F0D14A;
   color: grey;
+}
+
+.car-container img {
+padding: 0 15%;
+height: 100%;
+width: 100vw;
+max-height: 500px;
+}
+
+
+.carousel {
+  height: 80%;
+  width: 100vw;
+  background-color: #24292E;
+  padding-top:10px;
+}
+
+.carousel-caption {
+  background-color: rgba(57, 56, 56, 0.9);
+  margin: 0 200px;
+}
+
+.carousel-caption h3{
+  color: lightgoldenrodyellow;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color: white; 
+}
+
+.carousel-caption a:hover {
+  text-decoration: none;
+  color: white; 
+  background-color: lightskyblue;
 }
