@@ -5,6 +5,11 @@
   margin: 0;
 }
 
+#about-page {
+  border-bottom: 2px solid #F0D14A;
+  color: white;
+}
+
 .grid-container {
   display: grid;
   height: 100vh;
@@ -13,22 +18,18 @@
   background-size: cover;
 }
 
-.main-container {
-  width: 100%;
-  display: grid;
-  grid-template-rows: 0.1fr 0.1fr 0.1fr
-} 
-
-
-#about-page {
-  border-bottom: 2px solid #F0D14A;
-  color: white;
+.grid-main {
+  display: flex;
+  flex-direction: column;
 }
 
 /* splitting the main container using css grids */
+.title-container {
+  flex: 1;
+}
 
 .title-container h2 {
-  margin-top: 50px;
+  margin-top: 25px;
   margin-left: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -37,25 +38,18 @@
   width: 350px;
   color: white;
   border: 1px solid white;
-  background-color: rgba(57, 56, 56, 0.2);
+  background-color: rgba(57, 56, 56, 0.1);
 }
 
-.text-box {
-  display: flex;
+.carousel-box {
+  /* display: flex;
   align-items: center;
   justify-content: center;
-
-}
-
-.text-box {
   color: white;
-  padding: 20px;
-  width: 100%;
-  height: 100%;
-  background: white;
+  padding-top: 10px;
+  height: 60vh;
+  width: 60vw; */
 }
-
-/* yellow box placement */
 
 .yellow-box {
   height: 60px;
@@ -67,10 +61,10 @@
 }
 
 .resume-contact {
+  margin-top: 40px;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: flex-start;
 }
 
 .resume-contact a {
@@ -78,9 +72,7 @@
   color: white;
   border: 1px solid yellow;
   background-color: rgba(57, 56, 56, 0.8);
-  padding: 15px 40px;
-  margin-top: 20px;
-  margin-bottom: 25px;
+  padding: 0px 40px;
   font-size: 20px;
 }
 
@@ -89,12 +81,37 @@
   background-color: aqua;
 }
 
-.text-box img {
-  width: 250px;
-  height: 250px;
-  border: 1px solid black;
+
+.carousel {
+  height: 100%;
+  width: 100vw;
+  background-color: rgba(57, 56, 56, 0.5);
 }
 
-.text-paragraph {
-  padding: 50px;
+.carousel-caption {
+  background-color: rgba(57, 56, 56, 0.9);
+  margin: 0 200px;
 }
+
+.carousel-caption h3{
+  color: lightgoldenrodyellow;
+}
+
+.carousel-caption a {
+  text-decoration: none;
+  color: white; 
+}
+
+.carousel-caption a:hover {
+  text-decoration: none;
+  color: white; 
+  background-color: lightskyblue;
+}
+
+
+.car-container img {
+  padding: 0 25%;
+  height: 100%;
+  width: 100vw;
+  max-height: 555px;
+  }
