@@ -41,16 +41,6 @@
   background-color: rgba(57, 56, 56, 0.1);
 }
 
-.carousel-box {
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  padding-top: 10px;
-  height: 60vh;
-  width: 60vw; */
-}
-
 .yellow-box {
   height: 60px;
   width: 210px;
@@ -82,36 +72,37 @@
 }
 
 
-.carousel {
-  height: 100%;
+.carousel-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
-  background-color: rgba(57, 56, 56, 0.5);
 }
 
-.carousel-caption {
-  background-color: rgba(57, 56, 56, 0.9);
-  margin: 0 200px;
+.picture-box {
+  padding-bottom: 20px;
 }
 
-.carousel-caption h3{
-  color: lightgoldenrodyellow;
+.picture-box img {
+  height: 200px;
+  width: 200px;
+  display: block;
+  border-radius: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+
 }
 
-.carousel-caption a {
-  text-decoration: none;
-  color: white; 
+.text-box {
+  background-color: rgba(57, 56, 56, 0.8);
+  color: white;
+  margin: 0 25%;
+  flex-grow: 2;
+  text-align: center;
 }
 
-.carousel-caption a:hover {
-  text-decoration: none;
-  color: white; 
-  background-color: lightskyblue;
+.text-box p {
+  margin: 3px 0;
 }
-
-
-.car-container img {
-  padding: 0 25%;
-  height: 100%;
-  width: 100vw;
-  max-height: 555px;
-  }
