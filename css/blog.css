@@ -82,10 +82,34 @@
 .post {
   padding: 20px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .post > div {
-  height: 200px;
+  height: 500px;
   width: 900px;
-  background: red;
+}
+
+.text-box {
+  box-sizing: border-box;
+  border: 1px solid black;
+  height: 50%;
+  padding: 10px 20px;
+  flex: 2;
+}
+
+.text-box h2 {
+  margin-bottom: 30px;
+}
+
+.picture-box {
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.picture-box img{
+  width: 100%;
+  height: 100%
 }
