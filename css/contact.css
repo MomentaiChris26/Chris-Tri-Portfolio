@@ -15,12 +15,33 @@
 }
 
 .grid-main {
-  display: flex;
+  height: 100%;
+  width: 100vw;
+
 }
 
-#black-box {
-  background: #1B1A1A;
+#fs-frm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+#fs-frm-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+
+#fs-frm-inputs input,#fs-frm-inputs textarea {
+  width: 500px;
+  resize: none;
+}
+
 
 #contact {
   border-bottom: 2px solid #F0D14A;
