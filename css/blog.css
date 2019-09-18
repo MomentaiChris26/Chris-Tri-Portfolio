@@ -15,7 +15,7 @@
 .grid-container {
   display: grid;
   height: 100vh;
-  grid-template-rows: 0.1fr auto 0.01fr;
+  grid-template-rows: 0.1fr 0.8fr 0.01fr;
   background-color: #EBE8E8;
 }
 
@@ -36,6 +36,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .table-of-content ul {
@@ -61,41 +62,30 @@
   background-color: white;
 }
 
-.posts {
-  padding: 20px;
-  height: 500px;
-  width: 80%;
+.posts {  
   background-color: rgba(57, 56, 56, 0.1);;
-  overflow: scroll;
+  flex: 1;
+  display: flex;
+  overflow: auto;
+  justify-content: center;
+  width: 80%;
+}
+
+
+.box {
+  min-height: auto;
+  max-height: 500px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  flex: 1;
 }
-
 .post {
-  background-color: white;
-  width: 800px;
+  padding: 20px;
+  width: 100%;
+}
+
+.post > div {
   height: 200px;
-  min-height: min-content;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 100px 0;
+  width: 900px;
+  background: red;
 }
-
-.post .text-box {
-  min-height: min-content;
-  width: 50%;
-  height: 100%;
-  background-color: green;
-}
-
-.post .picture-box {
-  width: 50%;
-  height: 105%;
-  background-color: grey;
-}
-
