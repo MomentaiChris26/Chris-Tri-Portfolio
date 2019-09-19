@@ -38,7 +38,7 @@
 
 /* Specific CSS to index.html with background pic */
 
-.black-box h1 {
+.black-box h2 {
   background-color: rgba(57, 56, 56, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
@@ -104,7 +104,7 @@
 
 
 @media only screen and (max-width: 1165px) {
-  .black-box h1 {
+  .black-box h2 {
     font-size: 50px;
   }
   .black-box .text-box .yellow-box {
@@ -148,7 +148,7 @@
 }
 
 @media only screen and (max-width: 376px) {
-  .black-box h1 {
+  .black-box h2 {
     font-size: 45px;
   }
 
