@@ -1,9 +1,11 @@
 @import "navbar.css";
 @import "footer.css";
+@import "fonts.css";
 
 
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Setting CSS Grid Layout */
@@ -48,13 +50,14 @@
 }
 
 .black-box .text-box .yellow-box {
-  border: 1px solid #F9DC5C;
+  border: 2px solid #F9DC5C;
+  box-sizing: border-box;
   background-color: rgba(57, 56, 56, 0.3);
   height: 80px;
   width: 250px;
   opacity: 0.5;
   position: relative;
-  bottom: 160px;
+  bottom: 154px;
   left: 50px;
 }
 
@@ -70,7 +73,7 @@
 .black-box .text-box p {
   color: white;
   background-color: rgba(57, 56, 56, 0.7);
-  margin-top: 3%;
+  margin-top: 12%;
   font-size: 30px;
   padding-right: 10px;
   padding-left: 10px;
@@ -108,10 +111,10 @@
     font-size: 50px;
   }
   .black-box .text-box .yellow-box {
-    bottom: 135px;
-    left: 40px;
+    bottom: 136px;
+    left: 44px;
     height: 60px;
-    width: 200px;
+    width: 215px;
   }
   
   .black-box .text-box {
@@ -135,8 +138,8 @@
   }
 
   .black-box .text-box .yellow-box {
-    bottom: 144px;
-    left: 37px;
+    bottom: 171px;
+    left: 42px;
   }
 }
 

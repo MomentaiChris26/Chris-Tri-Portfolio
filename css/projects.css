@@ -30,10 +30,10 @@
   width: 200px;
   position: relative;
   bottom: 51px;
-  right: 54px;
+  right: 78px;
 }
 
-.title-container h1{
+.title-container h2{
   background-color: rgba(236, 236, 236, 0.6);
 }
 
@@ -178,7 +178,7 @@ margin-top: 5px;
 
 
  @media only screen and (max-width: 376px) {
-  .title-container h1{ font-size: 30px; }
+  .title-container h2{ font-size: 30px; }
 
 .yellow-box {
   right: 23px;
