@@ -13,8 +13,9 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 0.1fr auto 0.01fr;
-  background-image: url("../pictures/my-pic.jpg");
+  background-image: url("../pictures/chris-landingpg.png");
   background-size: cover;
+  background-origin: padding-box;
 }
 
 .grid-main {
@@ -32,15 +33,17 @@
 
 
 .black-box h1 {
-  background-color: rgba(57, 56, 56, 0.8);
+  background-color: rgba(57, 56, 56, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
   font-size: 60px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .black-box .text-box .yellow-box {
   border: 1px solid #F9DC5C;
-  background-color: rgba(57, 56, 56, 0.2);
+  background-color: rgba(57, 56, 56, 0.3);
   height: 80px;
   width: 250px;
   opacity: 0.5;
@@ -63,6 +66,8 @@
   background-color: rgba(57, 56, 56, 0.7);
   margin-top: 3%;
   font-size: 25px;
+  padding-right: 5px;
+  padding-left: 5px;
 }
 
 .black-box .view-work-link {
@@ -82,7 +87,7 @@
   box-sizing: inherit;
   display: inline-block;
   text-decoration: none;
-  background-color: rgba(57, 56, 56, 0.2);
+  background-color: rgba(57, 56, 56, 0.8);
 }
 
 .work-link:hover {

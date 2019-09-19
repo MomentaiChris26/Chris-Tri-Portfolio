@@ -17,8 +17,6 @@ text-decoration: none;
 color: black;
 }
 
-
-
 .links li a {
   text-decoration: none;
   color: black;
@@ -36,9 +34,3 @@ color: black;
   color: black; 
 }
 
-@media only screen and (max-width: 685px) {
-  .links li {
-    font-size: 15px;
-    margin: 0 5px;
-  }
-}
