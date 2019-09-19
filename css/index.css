@@ -131,18 +131,12 @@
     bottom: 144px;
     left: 37px;
   }
-
-
 }
-
 
 @media only screen and (max-width: 800px) {
 
-  .black-box .text-box .yellow-box {
-    bottom: 110px;
-    left: 25px;
-    height: 40px;
-    width: 130px;
+  .black-box .yellow-box { 
+    display: none;
   }
 }
 
@@ -151,9 +145,7 @@
     font-size: 45px;
   }
 
-  .black-box .yellow-box { 
-    display: none;
-  }
+
 
   .black-box .text-box p {
     font-size: 25px;
