@@ -10,7 +10,7 @@
 }
 
 .links h1 a{
-  padding-top: 20px;
+padding-top: 20px;
 float: left;
 padding-left: 50px;
 text-decoration: none;
@@ -34,3 +34,64 @@ color: black;
   color: black; 
 }
 
+.ham {
+  font-size: 30px;
+}
+
+.menu {
+  display: none;
+}
+
+#button {
+display: none;
+}
+
+#button label span {
+  display: block;
+}
+
+#button input:checked + span + .menu {
+  display: block;
+}
+
+#button label input {
+  display: none;
+}
+
+@media only screen and (max-width: 819px) {
+  #button {
+    display: block;
+    float: right;
+    margin-top: 20px;
+    width: 50px;
+    color: white;
+  }
+
+  #button ul {
+    list-style-type: none;
+    color: white;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(235, 232, 232, 0.8);
+    position: fixed;
+    top: 60px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #button menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  #normal-response {
+    display: none;
+  }
+
+}
