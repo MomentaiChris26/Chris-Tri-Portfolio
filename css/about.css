@@ -127,6 +127,9 @@
     margin: 0;
     width: 500px;
   }
+  .yellow-box {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 376px) {
