@@ -5,10 +5,6 @@
   margin: 0;
 }
 
-#about-page {
-  border-bottom: 2px solid #F0D14A;
-  color: white;
-}
 
 .grid-container {
   display: grid;

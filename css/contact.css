@@ -40,10 +40,13 @@
 #fs-frm-inputs input,#fs-frm-inputs textarea {
   width: 500px;
   resize: none;
+  cursor: pointer;
 }
 
 
-#contact {
-  border-bottom: 2px solid #F0D14A;
-  color: grey;
+
+@media only screen and (max-width: 614px) {
+  #fs-frm-inputs input, #fs-frm-inputs textarea {
+    width: 220px;
 }
+} 
