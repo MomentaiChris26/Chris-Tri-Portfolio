@@ -30,9 +30,9 @@
   padding-left: 10px;
   padding-right: 0;
   width: 275px;
-  color: black;
+  color: white;
   border: 1px solid white;
-  background-color: rgba(57, 56, 56, 0.1);
+  background-color: rgba(57, 56, 56, 0.5);
 }
 
 .yellow-box {
