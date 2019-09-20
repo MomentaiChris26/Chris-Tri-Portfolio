@@ -8,8 +8,8 @@
   height: 100vh;
   width: 100vw;
   grid-template-rows: 0.1fr 0.9fr 0.1fr;
-  background-image: url("../pictures/cloudymountains.jpg");
-  background-size: cover;
+  background-color: #EBE8E8;
+
 }
 
 .grid-main {
