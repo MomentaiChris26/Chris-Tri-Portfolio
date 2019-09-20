@@ -43,7 +43,6 @@
   align-items: center;
 }
 
-
 .project-container {
   height: 100%;
   width: 300px;
@@ -105,10 +104,7 @@ transition: 0.5s;
 z-index: 2;
 }
 
-.card:hover .imgBx
-{
-  bottom: 80px;
-}
+.card:hover .imgBx { bottom: 80px;}
 
 .card .imgBx img{
     position: absolute;
@@ -144,14 +140,8 @@ font-size: 12px;
 color: #f38695;
 display: block;
 margin-top: 5px;
- } 
+} 
 
- @media only screen and (max-width: 950px) {
-  .card {
-    width: 200px;
-    height: 200px;
-  }
- } 
 
 
 @media only screen and (min-width: 1500px) {
@@ -161,24 +151,28 @@ margin-top: 5px;
   }
 }
 
+@media only screen and (max-width: 950px) {
+  .card {
+    width: 200px;
+    height: 200px;
+  }
+ } 
+
  @media only screen and (max-width: 500px) {
   .card {
     width: 180px;
     height: 180px;
   }
 
-  .projects-list {
-    height: 70%;
-  }
+  .projects-list { height: 70%;}
  }
-
 
  @media only screen and (max-width: 376px) {
   .title-container h2{ font-size: 30px; }
 
-.yellow-box {
-  right: 23px;
-  width: 139px;
-}
+  .yellow-box {
+    right: 23px;
+    width: 139px;
+  }
  
 }
