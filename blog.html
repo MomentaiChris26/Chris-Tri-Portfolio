@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/blog.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" crossorigin="anonymous">
   <title>Christopher Tri</title>
 </head>
 <body>
@@ -24,7 +24,7 @@
                 <li><a href="./index.html">Home</a></li>
               </ul>
               <!-- Hamburger menu HTML -->
-              <section id="button">
+              <div id="button">
                 <label>
                   <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
                   <div class="menu">
@@ -38,13 +38,13 @@
                     </ul>
                   </div>
                 </label>
-              </section>
+              </div>
             </div>
         </div>
         </nav>
     <div class="grid-main">
       <!-- Table of content component in blog page -->
-      <section class="table-of-content">
+      <nav class="table-of-content">
         <ul>
           <li><a href="#post-1">Coder Academy</a></li>
           <li><a href="#post-2">Japan Trip</a></li>
@@ -52,9 +52,9 @@
           <li><a href="#post-4">Blog #4</a></li>
           <li><a href="#post-5">Blog #5</a></li>
         </ul>
-      </section>
+      </nav>
       <!-- Blog content -->
-      <section class="posts">
+      <main class="posts">
         <div class="box">
           <article class="post">
               <div class="text-box" id="post-1">
@@ -107,7 +107,7 @@
               </div>
             </article>
         </div>
-      </section>
+      </main>
     </div>
     <!-- Social Media Links sidebar -->
     <aside class="social-links-sidebar">
