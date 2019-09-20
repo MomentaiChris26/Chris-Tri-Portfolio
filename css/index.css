@@ -13,28 +13,24 @@
   background-origin: padding-box;
 }
 
-.main-container {
+.grid-main {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-} 
+}
 
-.black-box {
+/* CSS styling to title text including yellow square */
+
+.title-container {
   height: 80%;
   width: 70%;
   display: grid;
   grid-template-columns: 0.5fr 0.5fr;
 }
 
-.grid-main {
-  display: flex;
-}
-
-/* Specific CSS to index.html with background pic */
-
-.black-box h2 {
+.title-container h2 {
   background-color: rgba(57, 56, 56, 0.9);
   border: 1px solid rgba(255, 255, 255, 0.2);
   color: white;
@@ -43,7 +39,7 @@
   padding-left: 5px;
 }
 
-.black-box .text-box .yellow-box {
+.title-container .text-box .yellow-box {
   border: 2px solid #F9DC5C;
   box-sizing: border-box;
   background-color: rgba(57, 56, 56, 0.3);
@@ -55,7 +51,7 @@
   left: 50px;
 }
 
-.black-box .text-box {
+.title-container .text-box {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,7 +60,7 @@
   padding-left: 80px;
 }
 
-.black-box .text-box p {
+.title-container .text-box p {
   color: white;
   background-color: rgba(57, 56, 56, 0.7);
   margin-top: 12%;
@@ -73,7 +69,9 @@
   padding-left: 10px;
 }
 
-.black-box .view-work-link {
+/* CSS styling for link to projects page */
+
+.title-container .view-work-link {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -99,65 +97,51 @@
   cursor: pointer;
 }
 
+/* Responsiveness fixes for index page */
 
 @media only screen and (max-width: 1165px) {
-  .black-box h2 {
-    font-size: 50px;
-  }
-  .black-box .text-box .yellow-box {
+  .title-container h2 { font-size: 50px;}
+
+  .title-container.text-box {padding-left: 0;}
+
+  .title-container .text-box .yellow-box {
     bottom: 136px;
     left: 44px;
     height: 60px;
     width: 215px;
-  }
-  
-  .black-box .text-box {
-    padding-left: 0;
-  }
+  } 
 }
 
 @media only screen and (max-width: 950px) {
-  .black-box {
+  .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
   }
-  .black-box .view-work-link {
-    height: 20%;
-  }
+  .title-container .view-work-link {height: 20%;}
 
-  .work-link {
-    margin-left: 0;
-  }
+  .work-link {margin-left: 0;}
 
-  .black-box .text-box .yellow-box {
+  .title-container .text-box .yellow-box {
     bottom: 171px;
     left: 42px;
   }
 }
 
 @media only screen and (max-width: 800px) {
-
-  .black-box .yellow-box { 
-    display: none;
-  }
+  .title-container .yellow-box {display: none;}
 }
 
 @media only screen and (max-width: 376px) {
-  .black-box h2 {
-    font-size: 45px;
-  }
+  .title-container h2 {font-size: 45px;}
 
-
-
-  .black-box .text-box p {
-    font-size: 25px;
-   }
+  .title-container .text-box p {font-size: 25px;}
 
    .work-link {
      margin-left: 0;
      font-size: 24px;
    }
+
 }
 
