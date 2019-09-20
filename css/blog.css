@@ -3,6 +3,7 @@
 
 * {
   margin: 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -20,7 +21,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  
 }
 
 .table-of-content {
@@ -60,9 +60,8 @@
 
 .posts {  
   background-color: rgba(57, 56, 56, 0.1);;
-  /* flex: 1; */
   display: flex;
-  overflow: auto;
+  overflow-y: auto;
   justify-content: center;
   width: 80%;
   height: 100%;
@@ -72,6 +71,7 @@
 .box {
   min-height: auto;
   max-height: 500px;
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@
 
 .post {
   padding: 20px;
-  width: 60%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -133,7 +133,7 @@
 @media only screen and (max-width: 600px) {
   .post > div {
     height: unset;
-    width: 290px;
+    width: 250px;
   }
 
   .table-of-content li a{
@@ -144,6 +144,7 @@
   .post {
     flex-direction: column;
     width: 100%;
+    padding: 4px;
   }
 
 
