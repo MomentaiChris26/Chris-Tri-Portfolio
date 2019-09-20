@@ -10,7 +10,7 @@ footer {
 }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-.icon-bar {
+.social-links-sidebar {
   position: fixed;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -20,7 +20,7 @@ footer {
 }
 
 /* Style the icon bar links */
-.icon-bar a {
+.social-links-sidebar a {
   display: block;
   text-align: center;
   padding: 16px;
@@ -30,7 +30,7 @@ footer {
 }
 
 /* Styling icons with relevant colours */
-.icon-bar a:hover {
+.social-links-sidebar a:hover {
   background-color: #000;
 }
 
