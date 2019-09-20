@@ -1,13 +1,12 @@
-@import "navbar.css";
-@import "footer.css";
 @import "main.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+/* CSS relating to main grid container */
 .grid-container {
   display: grid;
   height: 100vh;
   grid-template-rows: 0.1fr 0.8fr 0.01fr;
-  background-color: #EBE8E8;
+  background-color: #F6F4F0;
 }
 
 .grid-main {
@@ -19,6 +18,9 @@
   justify-content: space-evenly;
 }
 
+/* CSS styling to the table of content and blog contents */
+
+/* Specific CSS relating to table of content for blog page */
 .table-of-content {
   height: 10%;
   width: 100%;
@@ -39,7 +41,6 @@
 .table-of-content li {
   float: left;
   font-size: 20px;
-  
 }
 
 .table-of-content li a{
@@ -54,6 +55,8 @@
   cursor: pointer;
 }
 
+/* CSS relating to blog page content box */
+
 .posts {  
   background-color: rgba(57, 56, 56, 0.1);;
   display: flex;
@@ -63,7 +66,6 @@
   height: 100%;
 }
 
-
 .box {
   min-height: auto;
   max-height: 500px;
@@ -71,6 +73,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #F6F4F0;
+  border: 1px solid black;
+  box-sizing: border-box;
 }
 
 .post {
@@ -94,9 +99,7 @@
   flex: 2;
 }
 
-.text-box h2 {
-  margin-bottom: 30px;
-}
+.text-box h2 {margin-bottom: 30px;}
 
 .picture-box {
   box-sizing: border-box;
@@ -108,11 +111,10 @@
   height: 100%
 }
 
+/* Responsive media query for blog page */
 
 @media only screen and (max-width: 1090px) {
-  .post > div {
-    width: 500px;
-  }
+  .post > div { width: 500px;}
 }
 
 @media only screen and (max-width: 800px) {
@@ -121,9 +123,7 @@
     width: 400px;
   }
 
-  .text-box {
-    font-size: 10px;
-  }
+  .text-box {font-size: 10px;}
 }
 
 @media only screen and (max-width: 600px) {
@@ -133,8 +133,8 @@
   }
 
   .table-of-content li a{
-    font-size: 12px;
-
+    font-size: 10px;
+    padding: 16px 5px;
   }
 
   .post {
@@ -142,6 +142,4 @@
     width: 100%;
     padding: 4px;
   }
-
-
 }

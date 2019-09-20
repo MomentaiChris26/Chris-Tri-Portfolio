@@ -3,6 +3,11 @@
   border-bottom: 2px solid #F0D14A;
 }
 
+#active-ham {
+  color: #54555A;
+  border-bottom: 2px solid #F0D14A;
+}
+
 
 .navbar-container {
   display: flex;
@@ -36,7 +41,7 @@ line-height: 1.2;
 }
 
 .links li a:hover {
-  color: white;
+  color: #0096cc;
 }
 
 .links li {

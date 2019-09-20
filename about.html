@@ -12,6 +12,7 @@
   <div class="grid-container">
     <nav class="navbar-container">
         <div class="links">
+        <!-- Main navigation bar while screen aspect is greater than 819px -->
         <h1><a href="./index.html">Chris.</a></h1>
           <ul id="normal-response">
             <li><a href="./contact.html" >Contact</a></li>
@@ -21,13 +22,14 @@
             <li><a href="./about.html" id="active">About Me</a></li>
             <li><a href="./index.html">Home</a></li>
           </ul>
+          <!-- Hamburger menu - Hidden while screen aspect is 819px -->
           <div id="button">
             <label>
               <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
               <div class="menu">
                 <ul>
                   <li><a href="./index.html">Home</a></li>
-                  <li><a href="./about.html" id="active">About Me</a></li>
+                  <li><a href="./about.html" id="active-ham">About Me</a></li>
                   <li><a href="./blog.html">Blog</a></li>
                   <li><a href="./skills.html">Skills</a></li>
                   <li><a href="./projects.html">Projects</a></li>
@@ -39,31 +41,33 @@
         </div>
     </nav>
     <div class="grid-main">
+      <!-- Components relating to introduction -->
+      <!-- title container -->
       <section class="title-container">
         <h2>Some Stuff About Me...</h2>
         <div class="yellow-box"></div>
       </section>
+      <!-- profile components including picture and paragraph -->
       <section class="profile-container">
               <div class="picture-box">
                 <img src="./pictures/chris-profilepic.png" alt="">
               </div>
               <div class="text-box">
-                  <p>I'm a web developer based in Melbourne, Australia. I have a passion for web design and love to create.</p> 
-                <p>My hobbies include playing video games, eating strange and exotic foods, and travelling the globe.</p>
-                  
+                <p>I'm a web developer based in Melbourne, Australia. I have a passion for web design and love to create.</p> 
+                <p>My hobbies include playing video games, eating strange and exotic foods, and travelling the globe.</p>  
               </div>
       </section>
-
       <section class="resume-contact">
         <a href="./documents/christopher-tri-cv.pdf" download>Resume</a>
       </section>
     </div>
   </div>
-  <aside class="icon-bar">
-    <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-    <a href="https://github.com/MomentaiChris26/" target="_blank" class="github"><i class="fab fa-github"></i></a>
-    <a href="https://twitter.com/TriChristopher" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-    <a href="https://magicalchrizjourneytofullstack.wordpress.com" target="_blank" class="wordpress"><i class="fab fa-wordpress"></i></a>
-  </aside>
+  <!-- Sidebar container for social media links -->
+  <aside class="social-links-sidebar">
+      <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://github.com/MomentaiChris26/" target="_blank" class="github"><i class="fab fa-github"></i></a>
+      <a href="https://twitter.com/TriChristopher" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://magicalchrizjourneytofullstack.wordpress.com" target="_blank" class="wordpress"><i class="fab fa-wordpress"></i></a>
+    </aside>
 </body>
 </html>
