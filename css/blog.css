@@ -7,7 +7,7 @@
   display: grid;
   height: 100vh;
   grid-template-rows: 0.1fr 0.8fr 0.01fr;
-  background-color: #EBE8E8;
+  background-color: #C4DEEA;
 }
 
 .grid-main {
