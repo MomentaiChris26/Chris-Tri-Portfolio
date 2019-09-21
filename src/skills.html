@@ -1,72 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/skills.css" integrity="sha512-oXf7L7uinixnH9WDqAKdeVhQ69XOFfEnpQyNlTiOeBr4UvW9DUzCOT7fXgTaF2T4K0u5ZaOA1oo/Nb5dFoAuSw sha384-4S4VcPXNvZI7k/V6p0yMcBWe+CekwX1GKYB4Gt5KDcV0SFLfmcaIPnC/mVxekrgA" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha384-7/Tl0k65OTvDSvtuq7aPR7aa0aCz7ZKqHsbMRLxhzueldW+9MZpCe9LB1c5UBuNS" crossorigin="anonymous">
-  <title>Christopher Tri</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="./css/skills.css"
+      integrity="sha512-oXf7L7uinixnH9WDqAKdeVhQ69XOFfEnpQyNlTiOeBr4UvW9DUzCOT7fXgTaF2T4K0u5ZaOA1oo/Nb5dFoAuSw sha384-4S4VcPXNvZI7k/V6p0yMcBWe+CekwX1GKYB4Gt5KDcV0SFLfmcaIPnC/mVxekrgA"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+      integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"
+      integrity="sha384-7/Tl0k65OTvDSvtuq7aPR7aa0aCz7ZKqHsbMRLxhzueldW+9MZpCe9LB1c5UBuNS"
+      crossorigin="anonymous"
+    />
+    <title>Christopher Tri</title>
+  </head>
   <body>
     <div class="grid-container">
-          <!-- Navigation bar -->
-        <nav class="navbar-container">
-            <div class="links">
-            <!-- Main navigation bar while screen aspect is greater than 819px -->
-              <h1><a href="./index.html">Chris.</a></h1>
-              <ul id="normal-response">
-                <li><a href="./contact.html" >Contact</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./skills.html" id="active">Skills</a></li>
-                <li><a href="./blog.html">Blog</a></li>
-                <li><a href="./about.html">About Me</a></li>
-                <li><a href="./index.html">Home</a></li>
-              </ul>
-             <!-- Hamburger menu - Hidden while screen aspect is 819px -->
-              <div id="button">
-                <label>
-                  <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
-                  <div class="menu">
-                    <ul>
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./about.html">About Me</a></li>
-                      <li><a href="./blog.html">Blog</a></li>
-                      <li><a href="./skills.html" id="active-ham">Skills</a></li>
-                      <li><a href="./projects.html">Projects</a></li>
-                      <li><a href="./contact.html" >Contact</a></li>
-                    </ul>
-                  </div>
-                </label>
+      <!-- Navigation bar -->
+      <nav class="navbar-container">
+        <div class="links">
+          <!-- Main navigation bar while screen aspect is greater than 819px -->
+          <h1><a href="./index.html">Chris.</a></h1>
+          <ul id="normal-response">
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./skills.html" id="active">Skills</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./index.html">Home</a></li>
+          </ul>
+          <!-- Hamburger menu - Hidden while screen aspect is 819px -->
+          <div id="button">
+            <label>
+              <input type="checkbox" value="1" /><span
+                class="fas fa-bars ham"
+              ></span>
+              <div class="menu">
+                <ul>
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./about.html">About Me</a></li>
+                  <li><a href="./blog.html">Blog</a></li>
+                  <li><a href="./skills.html" id="active-ham">Skills</a></li>
+                  <li><a href="./projects.html">Projects</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                </ul>
               </div>
-            </div>
-    </nav>
+            </label>
+          </div>
+        </div>
+      </nav>
       <div class="grid-main">
         <div class="main-container">
-
           <section class="platform-container">
-              <h6>My skills</h6>
-        <!-- animation library provided animate.css by Daniel Eden. Link to Github https://github.com/daneden/animate.css -->
-              <div class="icon-box animated zoomIn"><img src="./pictures/ruby-icon.jpg" alt=""></div>
-              <div class="icon-box animated zoomIn" id="displaced-rails"><img src="./pictures/rails.png" alt=""></div>
-              <div class="icon-box animated zoomIn"><img src="./pictures/javascript.png" alt=""></div>
-              <div class="icon-box animated zoomIn"><img src="./pictures/react-icon.png" alt=""></div>
-              <div class="icon-box animated zoomIn" id="displaced-html"><img src="./pictures/html5.png" alt=""></div>
-              <div class="icon-box animated zoomIn"><img src="./pictures/css3.png" alt=""></div>
+            <h6>My skills</h6>
+            <!-- animation library provided animate.css by Daniel Eden. Link to Github https://github.com/daneden/animate.css -->
+            <div class="icon-box animated zoomIn">
+              <img src="./pictures/ruby-icon.jpg" alt="" />
+            </div>
+            <div class="icon-box animated zoomIn" id="displaced-rails">
+              <img src="./pictures/rails.png" alt="" />
+            </div>
+            <div class="icon-box animated zoomIn">
+              <img src="./pictures/javascript.png" alt="" />
+            </div>
+            <div class="icon-box animated zoomIn">
+              <img src="./pictures/react-icon.png" alt="" />
+            </div>
+            <div class="icon-box animated zoomIn" id="displaced-html">
+              <img src="./pictures/html5.png" alt="" />
+            </div>
+            <div class="icon-box animated zoomIn">
+              <img src="./pictures/css3.png" alt="" />
+            </div>
           </section>
           <section class="img-container">
-              <h6>Skills computer</h6>
-              <img src="./pictures/computer-simple-v3.jpg" alt="Computer">
+            <h6>Skills computer</h6>
+            <img src="./pictures/computer-simple-v3.jpg" alt="Computer" />
           </section>
         </div>
       </div>
     </div>
+    <!-- Sidebar container for social media links -->
     <aside class="social-links-sidebar">
-        <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/MomentaiChris26/" target="_blank" class="github"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/TriChristopher" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://magicalchrizjourneytofullstack.wordpress.com" target="_blank" class="wordpress"><i class="fab fa-wordpress"></i></a>
-      </aside>
+      <a
+        href="https://www.linkedin.com/in/christopherqtri/"
+        target="_blank"
+        class="linkedin"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a
+        href="https://github.com/MomentaiChris26/"
+        target="_blank"
+        class="github"
+        ><i class="fab fa-github"></i
+      ></a>
+      <a
+        href="https://twitter.com/TriChristopher"
+        target="_blank"
+        class="twitter"
+        ><i class="fab fa-twitter"></i
+      ></a>
+      <a
+        href="https://magicalchrizjourneytofullstack.wordpress.com"
+        target="_blank"
+        class="wordpress"
+        ><i class="fab fa-wordpress"></i
+      ></a>
+    </aside>
   </body>
 </html>

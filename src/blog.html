@@ -1,125 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/blog.css" integrity="sha512-dIYJH0wTN6Wni5IChfIzZtaZqcRJq3g44W5fcj3Js/OcU0HCYNGQD3uIRSHVYQuN3VOsGnN63HSMLPLIcgixrQ sha384-QK0og7gpNpaijbMrHeD45ASQHMSAv7Vhl4u9kFOTrlbSR7biYgmdrPejnXMJDNn4" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" crossorigin="anonymous">
-  <title>Christopher Tri</title>
-</head>
-<body>
-  <div class="grid-container">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="./css/blog.css"
+      integrity="sha512-LUtskPJ2f0m84bvJ5AVEeS9Kws5qnmXyMiVRqs6m+NzYfHt2JeltI1Q1WQK319PPKWCi0LuXNRONzylz8yJlLw sha384-k08BaPRq08vW5aKIVSjXiw59wS8vw87oRHdxY/XPCKIMMgntVW8Q8MWkaJouUlps"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+      integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht"
+      crossorigin="anonymous"
+    />
+    <title>Christopher Tri</title>
+  </head>
+  <body>
+    <div class="grid-container">
       <nav class="grid-navbar">
         <div class="navbar-container">
           <!-- Main navigation bar -->
-            <div class="links">
-              <h1><a href="./index.html">Chris.</a></h1>
-              <ul id="normal-response">
-                <li><a href="./contact.html">Contact</a></li>
-                <li><a href="./projects.html">Projects</a></li>
-                <li><a href="./skills.html">Skills</a></li>
-                <li><a href="./blog.html" id="active">Blog</a></li>
-                <li><a href="./about.html">About Me</a></li>
-                <li><a href="./index.html">Home</a></li>
-              </ul>
-              <!-- Hamburger menu HTML -->
-              <div id="button">
-                <label>
-                  <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
-                  <div class="menu">
-                    <ul>
-                      <li><a href="./index.html">Home</a></li>
-                      <li><a href="./about.html">About Me</a></li>
-                      <li><a href="./blog.html" id="active-ham">Blog</a></li>
-                      <li><a href="./skills.html">Skills</a></li>
-                      <li><a href="./projects.html">Projects</a></li>
-                      <li><a href="./contact.html">Contact</a></li>
-                    </ul>
-                  </div>
-                </label>
-              </div>
+          <div class="links">
+            <h1><a href="./index.html">Chris.</a></h1>
+            <ul id="normal-response">
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./projects.html">Projects</a></li>
+              <li><a href="./skills.html">Skills</a></li>
+              <li><a href="./blog.html" id="active">Blog</a></li>
+              <li><a href="./about.html">About Me</a></li>
+              <li><a href="./index.html">Home</a></li>
+            </ul>
+            <!-- Hamburger menu HTML -->
+            <div id="button">
+              <label>
+                <input type="checkbox" value="1" /><span
+                  class="fas fa-bars ham"
+                ></span>
+                <div class="menu">
+                  <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./blog.html" id="active-ham">Blog</a></li>
+                    <li><a href="./skills.html">Skills</a></li>
+                    <li><a href="./projects.html">Projects</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </label>
             </div>
+          </div>
         </div>
       </nav>
-    <section class="blog-content-container">
-      <!-- Table of content component in blog page -->
-      <h6>Blog</h6>
-      <nav class="table-of-content">
-        <ul>
-          <li><a href="#post-1">Coder Academy</a></li>
-          <li><a href="#post-2">Japan Trip</a></li>
-          <li><a href="#post-3">Terminal App</a></li>
-          <li><a href="#post-4">Blog #4</a></li>
-          <li><a href="#post-5">Blog #5</a></li>
-        </ul>
-      </nav>
-      <!-- Blog content -->
-      <section class="blog-content">
-        <h6>blog posts</h6>
-        <div class="posts-container">
-          <!-- individual posts -->
-          <article class="post">
+      <section class="blog-content-container">
+        <!-- Table of content component in blog page -->
+        <h6>Blog</h6>
+        <nav class="table-of-content">
+          <ul>
+            <li><a href="#post-1">Coder Academy</a></li>
+            <li><a href="#post-2">Japan Trip</a></li>
+            <li><a href="#post-3">Terminal App</a></li>
+            <li><a href="#post-4">Blog #4</a></li>
+            <li><a href="#post-5">Blog #5</a></li>
+          </ul>
+        </nav>
+        <!-- Blog content -->
+        <section class="blog-content">
+          <h6>blog posts</h6>
+          <div class="posts-container">
+            <!-- individual posts -->
+            <article class="post">
               <div class="text-box" id="post-1">
-                  <h2>First day of Coder Academy</h2>
-                  <p><i class="fas fa-calendar-day"></i> <time datetime="2019-08-20">19 August 2019</time></p>
-                  <p>The beginning of my programming career starts today. There are heaps of great people here! I plan to do my best and be one of the best!</p>
+                <h2>First day of Coder Academy</h2>
+                <p>
+                  <i class="fas fa-calendar-day"></i>
+                  <time datetime="2019-08-20">19 August 2019</time>
+                </p>
+                <p>
+                  The beginning of my programming career starts today. There are
+                  heaps of great people here! I plan to do my best and be one of
+                  the best!
+                </p>
               </div>
               <div class="picture-box">
-                <img src="./pictures/code-screen.jpg" alt="">
+                <img src="./pictures/code-screen.jpg" alt="" />
               </div>
             </article>
             <article class="post">
               <div class="text-box" id="post-2">
                 <h2>Japan Trip</h2>
-                <p><i class="fas fa-calendar-day"></i> <time datetime="2018-03-02">02 March 2018</time></p>
-                <p>Went to Japan. It was a great experience and went to tons of temples!</p>
-                </div>
+                <p>
+                  <i class="fas fa-calendar-day"></i>
+                  <time datetime="2018-03-02">02 March 2018</time>
+                </p>
+                <p>
+                  Went to Japan. It was a great experience and went to tons of
+                  temples!
+                </p>
+              </div>
               <div class="picture-box">
-                <img src="./pictures/japan-01.jpg" alt="">
+                <img src="./pictures/japan-01.jpg" alt="" />
               </div>
             </article>
             <article class="post">
               <div class="text-box" id="post-3">
                 <h2>Built a terminal app!</h2>
-                <p><i class="fas fa-calendar-day"></i> <time datetime="2019-09-05">05 September 2019</time></p>
-                <p>Built a terminal app using Ruby! It was difficult but it worked out!</p>
+                <p>
+                  <i class="fas fa-calendar-day"></i>
+                  <time datetime="2019-09-05">05 September 2019</time>
+                </p>
+                <p>
+                  Built a terminal app using Ruby! It was difficult but it
+                  worked out!
+                </p>
               </div>
               <div class="picture-box">
-                <img src="./pictures/nerdsparadise2.JPG" alt="">
+                <img src="./pictures/nerdsparadise2.JPG" alt="" />
               </div>
             </article>
             <article class="post">
               <div class="text-box" id="post-4">
                 <h2>Blog Post 4</h2>
-                <p><i class="fas fa-calendar-day"></i> <time datetime="2019-08-20">20 August 2019</time></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet reprehenderit dolorem quisquam tempora maxime magnam officiis impedit architecto consequuntur quasi, nihil tempore quo excepturi. Saepe consectetur, quod voluptas quaerat animi, obcaecati dolorum, iusto veritatis ullam cupiditate quisquam minima nobis.</p>
+                <p>
+                  <i class="fas fa-calendar-day"></i>
+                  <time datetime="2019-08-20">20 August 2019</time>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid amet reprehenderit dolorem quisquam tempora maxime
+                  magnam officiis impedit architecto consequuntur quasi, nihil
+                  tempore quo excepturi. Saepe consectetur, quod voluptas
+                  quaerat animi, obcaecati dolorum, iusto veritatis ullam
+                  cupiditate quisquam minima nobis.
+                </p>
               </div>
               <div class="picture-box">
-                <img src="./pictures/mountains2.jpg" alt="">
+                <img src="./pictures/mountains2.jpg" alt="" />
               </div>
             </article>
             <article class="post">
               <div class="text-box" id="post-5">
                 <h2>Blog Post 5</h2>
-                <p><i class="fas fa-calendar-day"></i> <time datetime="2019-08-20">20 August 2019</time></p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid amet reprehenderit dolorem quisquam tempora maxime magnam officiis impedit architecto consequuntur quasi, nihil tempore quo excepturi. Saepe consectetur, quod voluptas quaerat animi, obcaecati dolorum, iusto veritatis ullam cupiditate quisquam minima nobis.</p>
+                <p>
+                  <i class="fas fa-calendar-day"></i>
+                  <time datetime="2019-08-20">20 August 2019</time>
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid amet reprehenderit dolorem quisquam tempora maxime
+                  magnam officiis impedit architecto consequuntur quasi, nihil
+                  tempore quo excepturi. Saepe consectetur, quod voluptas
+                  quaerat animi, obcaecati dolorum, iusto veritatis ullam
+                  cupiditate quisquam minima nobis.
+                </p>
               </div>
               <div class="picture-box">
-                <img src="./pictures/mountains2.jpg" alt="">
+                <img src="./pictures/mountains2.jpg" alt="" />
               </div>
             </article>
-        </div>
+          </div>
+        </section>
       </section>
-    </section>
-    <!-- Social Media Links sidebar -->
-    <aside class="social-links-sidebar">
-        <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://github.com/MomentaiChris26/" target="_blank" class="github"><i class="fab fa-github"></i></a>
-        <a href="https://twitter.com/TriChristopher" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
-        <a href="https://magicalchrizjourneytofullstack.wordpress.com" target="_blank" class="wordpress"><i class="fab fa-wordpress"></i></a>
+      <!-- Social Media Links sidebar -->
+      <aside class="social-links-sidebar">
+        <a
+          href="https://www.linkedin.com/in/christopherqtri/"
+          target="_blank"
+          class="linkedin"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <a
+          href="https://github.com/MomentaiChris26/"
+          target="_blank"
+          class="github"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://twitter.com/TriChristopher"
+          target="_blank"
+          class="twitter"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a
+          href="https://magicalchrizjourneytofullstack.wordpress.com"
+          target="_blank"
+          class="wordpress"
+          ><i class="fab fa-wordpress"></i
+        ></a>
       </aside>
-  </div>
- 
-</body>
+    </div>
+  </body>
 </html>

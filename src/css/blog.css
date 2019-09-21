@@ -104,7 +104,7 @@
 
 .picture-box img{
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 
 /* Responsiveness styling for blog page */
@@ -126,7 +126,7 @@
 
 @media only screen and (max-width: 600px) {
   .post > div {
-    height: unset;
+    height: 150px;
     width: 250px;
   }
 
