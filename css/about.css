@@ -1,8 +1,8 @@
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
-.grid-container {
+/* specific layout for about me page with background image */
+.grid-container-about-me {
   display: grid;
   height: 100vh;
   width: 100vw;
@@ -10,10 +10,10 @@
   background-image: url("../pictures/chris-landingpg.png");
   background-size: cover;
   background-origin: padding-box;
-
 }
 
-.grid-main {
+/* CSS Styling specific to about me page components */
+.about-me-section-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,8 +21,8 @@
   height: 100%;
 }
 
-/* splitting the main container using css grids */
 
+/* CSS specific to title component */
 .title-container h2 {
   margin-top: 25px;
   margin-left: 50px;
@@ -46,7 +46,7 @@
   left: 186px;
 }
 
-
+/* CSS for Profile section component */
 .profile-container {
   display: flex; 
   flex-direction: row;
@@ -56,8 +56,11 @@
 }
 
 
+/* CSS for profile picture container */
 .picture-box {
   width:50%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .picture-box img {
@@ -65,11 +68,11 @@
   width: 250px;
   display: block;
   border-radius: 60%;
-  margin-left: 100px;
   margin-right: 30px;
   border: 1px solid black;
 }
 
+/* CSS for profile text box container */
 .text-box {
   color: white;
   box-sizing: border-box;
@@ -85,6 +88,7 @@
   padding: 10px 20px;
 }
 
+/* CSS relating to resume download component */
 .resume-contact {
   display: flex;
   justify-content: center;
@@ -97,17 +101,21 @@
   color: white;
   border: 1px solid yellow;
   background-color: rgba(57, 56, 56, 0.8);
+}
+
+.resume-contact h6 {
+  font-size: 25px;
+  font-weight: 500;
   padding: 0px 40px;
-  font-size: 20px;
 }
 
 .resume-contact a:hover {
   text-decoration: none;
-  background-color: blue;
+  background-color: lightblue;
   cursor: pointer;
 }
 
-
+/* Styling for screen responsiveness */
 @media only screen and (max-width: 1000px) {
   .profile-container {
     flex-direction: column;
@@ -133,7 +141,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-
   .text-box {
     width: 300px;
     height: 230px;

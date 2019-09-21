@@ -1,14 +1,6 @@
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-/* CSS relating to main grid container */
-.grid-container {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: 0.1fr 0.8fr 0.01fr;
-  background-color: #F6F4F0;
-}
-
 .grid-main {
   height: 85%;
   width: 100vw;
@@ -17,8 +9,6 @@
   align-items: center;
   justify-content: space-evenly;
 }
-
-/* CSS styling to the table of content and blog contents */
 
 /* Specific CSS relating to table of content for blog page */
 .table-of-content {
@@ -56,9 +46,7 @@
 }
 
 /* CSS relating to blog page content box */
-
 .posts {  
-  background-color: rgba(57, 56, 56, 0.1);;
   display: flex;
   overflow-y: auto;
   justify-content: center;

@@ -1,12 +1,8 @@
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-.grid-container {
-  display: grid;
-  height: 100vh;
-  grid-template-rows: 0.1fr auto 0.01fr;
-  background-color: #F6F4F0;
-}
+
+
 
 .grid-main {
   width: 100vw;
@@ -20,6 +16,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+/* CSS styles relating to skills and graphics component */
+.main-container h6 {
+  display: none;
 }
 
 .platform-container {
@@ -55,8 +56,3 @@
   width: 70%;
   height: 70%;
 }
-
-
-@media only screen and (max-width: 750px) {
-
-} 
