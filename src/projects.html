@@ -12,40 +12,39 @@
   <body>
     <div class="grid-container">
         <nav class="grid-navbar">
-            <div class="navbar-container">
-                <div class="links">
-                  <h1><a href="./index.html">Chris.</a></h1>
-                  <ul id="normal-response">
-                    <li><a href="./contact.html" >Contact</a></li>
-                    <li><a href="./projects.html" id="active">Projects</a></li>
-                    <li><a href="./skills.html">Skills</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./about.html">About Me</a></li>
-                    <li><a href="./index.html">Home</a></li>
-                  </ul>
-                  <div id="button">
-                    <label>
-                      <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
-                      <div class="menu">
-                        <ul>
-                          <li><a href="./index.html">Home</a></li>
-                          <li><a href="./about.html">About Me</a></li>
-                          <li><a href="./blog.html">Blog</a></li>
-                          <li><a href="./skills.html">Skills</a></li>
-                          <li><a href="./projects.html" id="active-ham">Projects</a></li>
-                          <li><a href="./contact.html" >Contact</a></li>
-                        </ul>
-                      </div>
-                    </label>
-                  </div>
+          <div class="navbar-container">
+            <div class="links">
+            <!-- Main navigation bar while screen aspect is greater than 819px -->
+                <h1><a href="./index.html">Chris.</a></h1>
+                <ul id="normal-response">
+                  <li><a href="./contact.html" >Contact</a></li>
+                  <li><a href="./projects.html" id="active">Projects</a></li>
+                  <li><a href="./skills.html">Skills</a></li>
+                  <li><a href="./blog.html">Blog</a></li>
+                  <li><a href="./about.html">About Me</a></li>
+                  <li><a href="./index.html">Home</a></li>
+                </ul>
+            <!-- Hamburger menu - Hidden while screen aspect is 819px -->
+                <div id="button">
+                  <label>
+                    <input type="checkbox" value="1"><span class="fas fa-bars ham"></span>
+                    <div class="menu">
+                      <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./about.html">About Me</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./skills.html">Skills</a></li>
+                        <li><a href="./projects.html" id="active-ham">Projects</a></li>
+                        <li><a href="./contact.html" >Contact</a></li>
+                      </ul>
+                    </div>
+                  </label>
                 </div>
-                </div>
-        </nav>
-      <div class="grid-main">
-          <div class="title-container animated fadeIn slow">
-              <h2>Projects Showcase</h2>
-              <div class="yellow-box"></div>
+              </div>
             </div>
+        </nav>
+      <section class="projects-content-container">
+              <h2 class="title-container animated fadeIn slow">Projects Showcase </h2>
           <div class="projects-list">
               <div class="box">
                   <div class="card">
@@ -56,7 +55,6 @@
                         <h4><a href="https://github.com/MomentaiChris26/nerdsparadise" target="_blank"><i class="fab fa-github"></i> Terminal App:Nerd's Paradise</a><br><span></span></h4>
                     </div>
                   </div>
-                
                   <div class="card">
                     <div class="imgBx">
                         <img src="./pictures/rockpaperscissors.JPG" alt="Rock paper scissors site">
@@ -65,7 +63,6 @@
                         <h4><a href="https://github.com/MomentaiChris26/rockpaperscissors" target="_blank"><i class="fab fa-github"></i> Rock Paper Scissors</a><br><span><a href="https://ct-rockpaperscissors-project.netlify.com/" target="_blank"><i class="fas fa-link"></i> Website</a></span></h4>
                       </div>
                   </div>
-              
                   <div class="card">
                     <div class="imgBx">
                         <img src="./pictures/zen-garden-snippet.JPG" alt="Zen Garden Challenge">
@@ -76,7 +73,7 @@
                   </div>
               </div>
           </div>
-        </div>
+        </section>
       </div>
       <aside class="social-links-sidebar">
           <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>

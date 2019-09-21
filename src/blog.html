@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/blog.css">
+  <link rel="stylesheet" href="./css/blog.css" integrity="sha512-dIYJH0wTN6Wni5IChfIzZtaZqcRJq3g44W5fcj3Js/OcU0HCYNGQD3uIRSHVYQuN3VOsGnN63HSMLPLIcgixrQ sha384-QK0og7gpNpaijbMrHeD45ASQHMSAv7Vhl4u9kFOTrlbSR7biYgmdrPejnXMJDNn4" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" crossorigin="anonymous">
   <title>Christopher Tri</title>
 </head>
@@ -42,8 +42,9 @@
             </div>
         </div>
       </nav>
-    <div class="grid-main">
+    <section class="blog-content-container">
       <!-- Table of content component in blog page -->
+      <h6>Blog</h6>
       <nav class="table-of-content">
         <ul>
           <li><a href="#post-1">Coder Academy</a></li>
@@ -54,8 +55,10 @@
         </ul>
       </nav>
       <!-- Blog content -->
-      <main class="posts">
-        <div class="box">
+      <section class="blog-content">
+        <h6>blog posts</h6>
+        <div class="posts-container">
+          <!-- individual posts -->
           <article class="post">
               <div class="text-box" id="post-1">
                   <h2>First day of Coder Academy</h2>
@@ -107,8 +110,8 @@
               </div>
             </article>
         </div>
-      </main>
-    </div>
+      </section>
+    </section>
     <!-- Social Media Links sidebar -->
     <aside class="social-links-sidebar">
         <a href="https://www.linkedin.com/in/christopherqtri/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
