@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="./css/about.css">
+  <link rel="stylesheet" href="./css/about.css" integrity="sha512-8aBXojQ727pZd+ETlIoADfHUUqg2CokBJN4JFBhcI012bZD2b6xiOKmMx5oMz2ZO8QVWhTE9ZIoNpcaN8Ix94g sha384-3KDfJbYWt1wfF/Bu+aRWodL+RqdS5j/bfqYquHGd0Dmk0yO/CRyCJoowQvgwws7C" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css" integrity="sha384-Ex0vLvgbKZTFlqEetkjk2iUgM+H5udpQKFKjBoGFwPaHRGhiWyVI6jLz/3fBm5ht" crossorigin="anonymous">
   <title>Christopher Tri</title>
 </head>
 <body>
-  <div class="grid-container">
+  <div class="grid-container-about-me">
     <nav class="navbar-container">
         <div class="links">
         <!-- Main navigation bar while screen aspect is greater than 819px -->
@@ -40,27 +40,28 @@
           </div>
         </div>
     </nav>
-    <div class="grid-main">
+    <section class="about-me-section-container">
       <!-- Components relating to introduction -->
       <!-- title container -->
-      <section class="title-container">
+      <div class="title-container">
         <h2>Some Stuff About Me...</h2>
         <div class="yellow-box"></div>
-      </section>
+      </div>
       <!-- profile components including picture and paragraph -->
       <div class="profile-container">
-              <div class="picture-box">
-                <img src="./pictures/chris-profilepic.png" alt="">
-              </div>
-              <div class="text-box">
-                <p>I'm a web developer based in Melbourne, Australia. I have a passion for web design and love to create.</p> 
-                <p>My hobbies include playing video games, eating strange and exotic foods, and travelling the globe.</p>  
-              </div>
-            </div>
-      <div class="resume-contact">
-        <a href="./documents/christopher-tri-cv.pdf" download>Resume</a>
+        <div class="picture-box">
+          <img src="./pictures/chris-profilepic.png" alt="">
+        </div>
+        <div class="text-box">
+          <p>I'm a web developer based in Melbourne, Australia. I have a passion for web design and love to create.</p> 
+          <p>My hobbies include playing video games, eating strange and exotic foods, and travelling the globe.</p>  
+        </div>
       </div>
-    </div>
+      <!-- Resumes download section-->
+      <section class="resume-contact">
+        <a href="./documents/christopher-tri-cv.pdf" download> <h6>Resume</h6></a>
+      </section>
+    </section>
   </div>
   <!-- Sidebar container for social media links -->
   <aside class="social-links-sidebar">
