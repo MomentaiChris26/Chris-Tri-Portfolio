@@ -58,7 +58,7 @@
   align-items: center;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 
 .title-container .text-box p {

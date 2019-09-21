@@ -2,9 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 
-
-
-.grid-main {
+.projects-content-container {
   width: 100vw;
   margin-top: 20px;
   display: flex;
@@ -13,19 +11,27 @@
   align-items: center;
 }
 
-.yellow-box {
+/* .yellow-box {
   border: 2px solid yellow;
   height: 50px;
   width: 200px;
   position: relative;
   bottom: 50px;
   right: 54px;
-}
+} */
 
-.title-container h2{
-  background-color: rgba(236, 236, 236, 0.6);
+.title-container{
   font-weight: 500;
   font-size: 40px;
+  position: relative;
+}
+.title-container::before {
+  content:'';
+  height: 50px;
+  width: 200px;
+  position: absolute;
+  border: 2px solid yellow;
+  right: 181px;
 }
 
 .projects-list {
@@ -156,16 +162,11 @@ margin-top: 5px;
     width: 180px;
     height: 180px;
   }
-
   .projects-list { height: 70%;}
- }
 
- @media only screen and (max-width: 376px) {
-  .title-container h2{ font-size: 30px; }
+  .title-container { font-size: 30px; }
 
-  .yellow-box {
-    right: 23px;
-    width: 139px;
+  .title-container::before {
+    display: none;
   }
- 
-}
+ }

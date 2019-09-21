@@ -1,7 +1,13 @@
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-.grid-main {
+/* style to remove h6 from view as it's only required to fix section header error for html validator */
+.blog-content-container h6 {
+  display: none;
+}
+
+/* Blog content container layout styling */
+.blog-content-container {
   height: 85%;
   width: 100vw;
   display: flex;
@@ -46,7 +52,7 @@
 }
 
 /* CSS relating to blog page content box */
-.posts {  
+.blog-content {  
   display: flex;
   overflow-y: auto;
   justify-content: center;
@@ -54,7 +60,7 @@
   height: 100%;
 }
 
-.box {
+.posts-container {
   min-height: auto;
   max-height: 500px;
   overflow-y: scroll;
@@ -87,7 +93,9 @@
   flex: 2;
 }
 
-.text-box h2 {margin-bottom: 30px;}
+.text-box h2 {
+  margin-bottom: 30px;
+}
 
 .picture-box {
   box-sizing: border-box;
@@ -99,10 +107,12 @@
   height: 100%
 }
 
-/* Responsive media query for blog page */
+/* Responsiveness styling for blog page */
 
 @media only screen and (max-width: 1090px) {
-  .post > div { width: 500px;}
+  .post > div {
+    width: 500px;
+  }
 }
 
 @media only screen and (max-width: 800px) {

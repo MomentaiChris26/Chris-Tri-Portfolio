@@ -1,7 +1,7 @@
 @import "main.css";
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+/* Contact form and title container styling */
 .contact-me {
   height: 100%;
   width: 100vw;
@@ -15,6 +15,7 @@
 font-size: 50px;
 }
 
+/* contact form component styling */
 #fs-frm {
   width: 100%;
   height: 80%;
@@ -23,7 +24,6 @@ font-size: 50px;
   justify-content: center;
   align-items: center;
 }
-
 
 #fs-frm h2 {
   font-weight: 500;
@@ -50,7 +50,7 @@ font-size: 50px;
   border: 1px solid rgba(255, 255, 255, 0.5)
 }
 
-
+/* responsiveness styling for contact form */
 @media only screen and (max-width: 614px) {
   #fs-frm-inputs input, #fs-frm-inputs textarea {
     width: 220px;
