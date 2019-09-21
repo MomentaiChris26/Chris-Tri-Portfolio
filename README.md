@@ -3,10 +3,12 @@
 Found out that bootstrap link reference caused issues with fonts on pages. removed link and fixed up fonts using css.
 
 
+## Link to Website
+
+https://christopher-tri.netlify.com
+
 
 ## Issues and other information
-
-
 
 ## Mood Board
 
