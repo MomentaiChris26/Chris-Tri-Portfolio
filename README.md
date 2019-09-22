@@ -23,7 +23,6 @@ The target audience for this site will be employers with some knowledge of web d
 
 ![SiteMap](./docs/SiteMapimgversion.jpeg)
 
-
 ## Screenshots
 
 ### Home Page
