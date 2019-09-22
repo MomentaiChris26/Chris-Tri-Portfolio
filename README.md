@@ -13,7 +13,7 @@ Dribble Mood-board URL: https://dribbble.com/CQTT/buckets/1519624-Mood-Board
 
 ## Purpose
 
-To demonstrate to employers and general public, my knowledge and application of HTML and CSS. Also, website provides links, descriptions and information regarding my skill set, completed projects and enables employers to contact me. 
+To demonstrate to potential employers my knowledge and application of HTML and CSS. Additionally, portfolio website is used to showcase my past projects.
 
 ## Target audience
 
@@ -48,28 +48,35 @@ The target audience for this site will be employers with some knowledge of web d
 ## Functionality / Features
 
 List of features and functionality on the site include: 
-- Navigation bar is same on all pages and provides the user an indication on which page they are on.
+- Navigation bar is the same on all pages and provides the user an indication on which page they are on.
 - Navigation bar becomes a hamburger menu when the screen shrinks below 820px for website responsiveness. 
-- Landing page provides direct link to projects page for visitors to be able to view projects. 
-- Contact page is linked with email address as well as an email address for direct messages.
-- Skills page has icons to show user the languages in the form of icons. As well alt text for if icons aren't visible on their browser. 
-- Blog is kept inside a small box for scrolling.
-- Project page has a clickable picture that will display the link to the github or website (if applicable) when clicked. This is purely for visual effects and demonstrate some css animations.
-- Certain pages have animation to improve website appeal. These include the home page with text appearing a second after the site has loaded.
-- There's a link in about me that downloads the pdf version of my resume.
+- Home page provides a direct link to projects page. 
+- Contact page is linked with email address and provides an email address for direct messages.
+- Skills page uses icons to show programming languages.
+- Blog is kept inside a small container for scrolling in single page view.
+- Project page has clickable pictures that display links to the github or website (if applicable) when clicked. This is purely for visual effects and demonstrate some css animations.
+- Certain pages have animation to improve website appeal.
+- Link in about me page that downloads the pdf version of resume.
+
 
 ## Tech Stack
 - HTML
 - CSS
-- Javascript
 - Formspree
 - Netlify for deployment
 - Github for version control
 
-## Issues and other information
+## Known issues and other information
 
-One issue I had with my HTML validator was this error below.
+One issue when I ran my pages through the HTML validator was this error below.
 ![HTML Validator error](./docs/html-validator-known-issue.JPG)
-I am aware of this issue, however, I decided not to change the HTML Semantic as I believe this portion of the HTML/CSS was vitally important for my site's responsiveness, as this error relates to the hamburger menu. As I decided not to use Bootstrap or Javascript, this was the only way to accomplish it. 
+
+I am fully aware of this issue and I decided not to fix the error as it related to the vital responsive hamburger menu on my site.
+
+Normally I would have fixed this error if it was a client's website or any other website. I would have used Javascript or bootstrap to create the hamburger menu. 
+
+However, for the assessment requirement, I decided to not change the code, and leave the error as it was the only way I knew how to create the responsive hamburger menu using just CSS. 
+
+
 
 
